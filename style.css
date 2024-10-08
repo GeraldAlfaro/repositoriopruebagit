@@ -8,11 +8,21 @@ body {
     line-height: 20px;
 }
 
+p {
+    font-size: 18px;
+}
+
 .contenedor-nav {
     max-width: 940px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+}
+
+.contenedor {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
 }
 
 .barranavegacion {
@@ -61,6 +71,7 @@ body {
     padding: 0;
     font-size: 12px;
     font-weight: 400;
+    border-bottom: 2px solid transparent;
     position: relative;
     display: inline-block;
     vertical-align: top;
@@ -69,6 +80,11 @@ body {
     text-decoration: none;
     color: #404040;
     max-width: 940px;
+    transition: all ease .3s;
+}
+
+.links a:hover {
+    border-bottom: 2px solid #64d9e8;
 }
 
 .sidebar {
@@ -111,7 +127,7 @@ body {
 }
 
 .icono-hamburguesa svg {
-    margin-bottom: ;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 767px) {
@@ -143,4 +159,72 @@ body {
     .contenedor-nav {
         max-width: none;
     }
+}
+
+/* fin del header */
+
+/* fondo aguamarino */
+
+.fondo-aguamarino {
+    background-image: linear-gradient(180deg, rgba(100, 209, 198, 0.55), rgba(100, 209, 198, 0.55)), url(https://daks2k3a4ib2z.cloudfront.net/530ab3ac7b5bc4ca19000b96/530ab7d8519f56c819000955_ocean-rocks.jpg);
+    background-size: auto, cover;
+    padding: 100px 10px;
+    text-align: center;
+    color: #fff;
+    background-position: 0%, 0%, 50%, 70%;
+}
+
+.main-heading {
+    margin-top: 7px;
+    font-family: Montserrat, sans-serif;
+    font-size: 44px;
+    text-transform: uppercase;
+    font-weight: 400;
+    line-height: 55px;
+}
+
+.divisor {
+    display: block;
+    width: 80px;
+    height: 2px;
+    margin: 30px auto;
+    background-color: #fff;
+}
+
+.main-subtitulo {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* touch */
+
+.touch {
+    background-color: #fefec9;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.touch img {
+    width: 56px;
+    margin-top: -30px;
+}
+
+.touch p {
+    color: #47474f;
+    line-height: 25px;
+}
+
+.boton {
+    font-style: italic;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 15px 30px;
+    border: 2px solid #333333;
+    color: #47474f;
+    transition: all ease 300ms;
+    border-width: 1px 1px 2px;
+}
+
+.boton:hover {
+    background-color: #fff
 }
