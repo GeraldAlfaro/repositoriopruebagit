@@ -228,3 +228,44 @@ p {
 .boton:hover {
     background-color: #fff
 }
+
+/* proceso */
+
+.proceso {
+    text-align: center;
+    padding: 70px 0;
+}
+
+.proceso h3 {
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: Montserrat, sans-serif;
+    margin-top: 40px;
+}
+
+.proceso p {
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.divisor-gris {
+    display: block;
+    width: 80px;
+    height: 2px;
+    margin: 30px auto;
+    background-color: #47474f;
+}
+
+.proceso img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: #f5f5f5;
+    width: 127px;
+}
+
+.backgroundgrisimg {
+    background-color: #f5f5f5;
+    padding: 50px;
+}
