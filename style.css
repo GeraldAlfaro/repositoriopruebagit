@@ -140,36 +140,6 @@ p {
     margin-top: 10px;
 }
 
-@media screen and (max-width: 767px) {
-    .barranavegacion {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-}
-
-@media screen and (max-width: 800px) {
-    .hideonmobile {
-        display: none;
-    }
-
-    .icono-hamburguesa {
-        display: block;
-    }
-}
-
-@media screen and (max-width: 991px) {
-    .contenedor-nav {
-        max-width: 728px;
-        padding: 0 20px;
-    }
-}
-
-
-@media screen and (max-width: 479px) {
-    .contenedor-nav {
-        max-width: none;
-    }
-}
 
 /* fin del header */
 
@@ -311,4 +281,82 @@ p {
 .card p {
     font-size: 15px;
     margin-bottom: 20px;
+}
+
+/* our team */
+
+.team {
+    padding: 90px 10px;
+    text-align: center;
+}
+
+.pfp {
+    max-width: 100%;
+    border-radius: 100%;
+}
+
+.team h3 {
+    font-size: 16px;
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.team p {
+    font-size: 17px;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.link-social {
+    width: 29px;
+    padding-top: 5px;
+    padding-left: 1px;
+    height: 29px;
+    margin: 3px;
+    background-color: #f5f5f5;
+    border-radius: 100%;
+}
+
+.link-social img {
+    width: 14px;
+    display: inline-block;
+}
+
+@media screen and (max-width: 767px) {
+    .barranavegacion {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .hideonmobile {
+        display: none;
+    }
+
+    .icono-hamburguesa {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .contenedor-nav {
+        max-width: 728px;
+        padding: 0 20px;
+    }
+}
+
+
+@media screen and (max-width: 479px) {
+    .contenedor-nav {
+        max-width: none;
+    }
 }
