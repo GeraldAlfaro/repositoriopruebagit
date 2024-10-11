@@ -11,10 +11,10 @@ function hideSidebar() {
 document.addEventListener("DOMContentLoaded", function () {
     const swiper = new Swiper('.swiper', {
         // Optional parameters
-        slidesPerView: 2,
+        slidesPerView: 1,
         direction: 'horizontal',
         loop: true,
-        slidesPerGroup: 2,
+        slidesPerGroup: 1,
         speed: 450,
 
         // If we need pagination
@@ -26,6 +26,13 @@ document.addEventListener("DOMContentLoaded", function () {
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+            991: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+                slidesPerGroup: 2,
+            },
         },
 
     });
